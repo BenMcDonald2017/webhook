@@ -1,0 +1,9 @@
+Getting Started 
+
+npm install
+npm run-script build
+npm run-script start
+
+curl http://localhost:3005/hook/2?webhook=https://jsonplaceholder.typicode.com/posts
+
+npm run-script test
