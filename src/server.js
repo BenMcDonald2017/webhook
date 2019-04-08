@@ -29,8 +29,8 @@ app.get("/hook/:filterId", async (req, res) => {
   postWebHook(webhook, filtered)
 
   res.json({
-	result: `Result (${filtered.length}) sent to your webhook ${webhook}.`,
-	sent: filtered.length
+	  result: `Result (${filtered.length}) sent to your webhook ${webhook}.`,
+	  sent: filtered.length
   });
 });
 
